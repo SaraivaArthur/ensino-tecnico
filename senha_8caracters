@@ -1,0 +1,9 @@
+senha_correta = "12345678"
+while True:
+ senha_usuario = input("Digite uma senha de 8 caracteres:")
+
+if senha_usuario == senha_correta:
+ print("Acesso permitido!")
+ break
+else:
+ print("Acesso negado!")
